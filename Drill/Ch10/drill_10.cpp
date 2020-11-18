@@ -6,9 +6,9 @@ struct Point
 	int y;
 	
 };
-bool operator==(const Point& lhs, const Point& rhs)
+bool operator==(const Point& op,const Point& pp)
 {
-    return ((lhs.x == rhs.x && (lhs.y == rhs.y)));
+    return ((op.x == pp.x && (op.y == pp.y)));
 }
 
 int main()
@@ -21,7 +21,14 @@ try{
 	while(cin >> x >> y)
 	{
 		original_points.push_back(Point{x,y});
+		if(original_points.size()==7)
+		{
+			cout << "You have got all of the points"<< endl;
+			break;
+		}
 	}
+
+	cout << "Original points: ";
 
 	for(const auto& op : original_points)
 		cout << op.x << ' ' << op.y << endl;

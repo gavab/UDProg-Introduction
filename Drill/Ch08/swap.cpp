@@ -36,7 +36,7 @@ int main()
 	cout << "x= " << x << " y= " << y << endl;
 
 	//swap_cr(x,y);
-	cout << "x= " << x << " y= " << y << endl;
+	//cout << "x= " << x << " y= " << y << endl;
 
 	/*swap_v(7,9);
 	cout << "swap_v(7,9)"<<swap_v(7,9)<< endl;
@@ -56,10 +56,10 @@ int main()
 	cout << "cx= " << cx << " cy= " << cy << endl;
 	
 	//swap_r(cx,cy);
-	cout << "cx= " << cx << " cy= " << cy << endl;
+	//cout << "cx= " << cx << " cy= " << cy << endl;
 	
 	//swap_cr(cx,cy);
-	cout << "cx= " << cx << " cy= " << cy << endl;
+	//cout << "cx= " << cx << " cy= " << cy << endl;
 	
 	/*swap_v(7.7,9.9);
 	cout << "swap_v(7.7,9.9) " << swap_v(7.7,9.9) << endl;
@@ -81,10 +81,10 @@ int main()
 	cout << "dx= " << dx << " dy= " << dy << endl;
 	
 	//swap_r(dx,dy);
-	cout << "dx= " << dx << " dy= " << dy << endl;
+	//cout << "dx= " << dx << " dy= " << dy << endl;
 	
 	//swap_cr(dx,dy);
-	cout << "dx= " << dx << " dy= " << dy << endl;
+	//cout << "dx= " << dx << " dy= " << dy << endl;
 	
 	/*swap_v(7.7,9.9);
 	cout << "swap_v(7.7,9.9) "<<swap_v(7.7,9.9) << endl;
